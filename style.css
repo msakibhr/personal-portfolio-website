@@ -93,3 +93,22 @@ footer p{
     font-size: 24px;
     color: #696871;
 }
+.emailAddress{
+    font-size: 36px;
+
+    /* position: absolute;
+    width: 301px;
+    height: 42px;
+    left: 570px;
+    top: 2474px; */
+
+    /* font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px; */
+
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
