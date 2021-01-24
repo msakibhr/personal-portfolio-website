@@ -1,13 +1,27 @@
 body{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 80px;
 }
-.greetings-highlight{
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 16px;
+}
+p{
+    color: #3E3E3E;
+}
+.project-area p{
+    color: #6C6C6C;
+}
+.blueLike-highlight{
+    font-family: 'Bebas Neue', cursive;    
     color: #363958;
 }
-.name-highlight{
+.orangeLike-highlight{
+    font-family: 'Bebas Neue', cursive;
     color: #FF8367;
 }
 .half-width{
@@ -18,4 +32,64 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.one-third-width{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1%;
+}
+.one-third-width img{
+    width: 100%;
+}
+.top-banner{
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    /* background-color: #FF8367; */
+    background-image: linear-gradient(360deg, lightSalmon, tomato);
+    /* position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 135px;
+    top: 442px; */
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+
+}
+.about-area{
+
+}
+.single-project{
+    /* box-shadow: 10px 10px 20px whitesmoke; */
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    height: 374px;
+    background-color: white;
+
+/* position: absolute;
+width: 370px;
+height: 374px;
+left: 135px;
+top: 1454px;
+
+background: #FFFFFF;
+box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+border-radius: 19.7436px; */
+}
+.project-area{
+
+}
+footer p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    color: #696871;
 }
