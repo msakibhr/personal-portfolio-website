@@ -1,0 +1,21 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    font-size: 80px;
+}
+.greetings-highlight{
+    color: #363958;
+}
+.name-highlight{
+    color: #FF8367;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
