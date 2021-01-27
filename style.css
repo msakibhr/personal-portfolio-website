@@ -112,8 +112,8 @@ section{
     font-size: 24px;
     color: #696871;
 
-    height: 1px;
-    padding-bottom: 5px;
+    height: 10px;
+    padding-bottom: 250px;
 }
 .emailAddress{
     text-decoration: none;
@@ -128,7 +128,7 @@ section{
     display: inline-block;
     vertical-align: middle;
     max-width: 40px;
-    padding-bottom: 75px;
+    padding-bottom: 25px;
 }
 .project-area {
     padding-top: 25px;
@@ -136,6 +136,7 @@ section{
 }
 
 .extra {
+    margin-top: 100px;
     padding: 5px;
     margin-bottom: 20px;
     text-align: center;
@@ -144,6 +145,14 @@ section{
 #endorsements {
     width: 50%;
     margin: auto;
+    background-color: lightsalmon;
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+
+#endorsements h2 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;    
 }
 
 #endorsements h4 {
