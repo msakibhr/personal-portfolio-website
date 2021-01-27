@@ -8,14 +8,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="topnav">
+        <a href="#targetContact">Contact</a>
+        <a href="#targetLetsChat">Let's Chat!</a>
+        <a href="#targetPortfolio">Portfolio</a>
+        <a href="#targetWork">Work</a>
+        <a class="active" href="#">About</a>
+      </div>
     <section class="top-banner">
         <div class="half-width">
             <h1 class="blueLike-highlight">HELLO, I'M</h1>
             <h1 class="orangeLike-highlight">MD. SAKIB HASSAN RIMON</h1>
-            <p>A wannabe web developer who loves to learn core CS stuffs!</p>
+            <p>A wannabe developer who loves to learn core CS stuffs!</p>
             <a class="link-button" target="_blank" href="https://www.linkedin.com/in/msakibhr/">Hire Me</a>
         </div>
         <div class="half-width">
@@ -23,16 +31,18 @@
         </div>
     </section>
     <section class="about-area">
+        <a name="targetPortfolio"></a>
         <div class="half-width">
             <img src="images/profile1.png" alt="">
         </div>
         <div class="half-width">
             <h2 class="blueLike-highlight">ABOUT ME</h2>
-            <p>Currently studying BSc Engg. in Computer Science & Engineering in Sylhet Engineering College, at Final year.</p>
-            <a class="link-button" target="_blank" href="https://docs.google.com/document/d/1NiQSpypQq0LzTqZJ9Z-4oDICLOVeOct169fOiJe1ptM/edit?usp=sharing">Download CV</a>
+            <p>I am pursuing my BSc Engg. degree in Computer Science & Engineering from Sylhet Engineering College. Currently I am doing the last year of my BSc Engg..</p>
+            <a class="link-button" target="_blank" href="https://docs.google.com/document/d/1NiQSpypQq0LzTqZJ9Z-4oDICLOVeOct169fOiJe1ptM/edit?usp=sharing"><i class="fa fa-download"></i> Download CV</a>
         </div>
     </section>
     <section class="project-area">
+        <a name="targetWork"></a>
         <h2 style="text-align: center"><span class="orangeLike-highlight">LATEST</span> <span class="blueLike-highlight">WORKING PROJECT</span></h2>
         <div class="one-third-width single-project">
             <img src="images/image 4.png" alt="">
@@ -50,9 +60,34 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
     </section>
-    <footer>
-        <p>Stay connected</p>
-        <p class="emailAddress">msakibhr@gmail.com</p>
-    </footer>
+
+    <section class="inquiry-area">
+        <a name="targetLetsChat"></a>
+        <img src="images/inquiry_bg.png" alt="">
+        <h1>WORK INQUIRY</h1>
+        <a target="_blank" href="https://www.facebook.com/Saaqib.H" class="link-button">Let's Chat</a>
+    </section>
+
+    <section class="extra">
+        <div id="endorsements">
+            <h3>What Client Says</h3>
+            <h4>Bruce Moccy</h4>
+            <h5>Founder & CEO, Alies</h5>
+            <p>
+                Sakib is a quick learner and hard-working guy. He made our projects beautifully and we are very satisfied!
+            </p>
+        </div>
+    </section>
+
+    <section class="footer-area">
+        <a name="targetContact"></a>
+        <footer>
+            <p>Please stay connected by leaving me a message at</p>
+            <a target="_blank" href="mailto:msakibhr@gmail.com" class="emailAddress">msakibhr@gmail.com</p>
+            <a target="_blank" href="https://www.behance.net/msakibhr"><img class="minilogo" src="images/behance.png" alt=""></a>
+            <a target="_blank" href="https://dribbble.com/msakibhr"><img class="minilogo" src="images/dribbble.png" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/saaqibhassan/"><img class="minilogo" src="images/instagram.png" alt=""></a>
+        </footer>
+    </section>
 </body>
 </html>
