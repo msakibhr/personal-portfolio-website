@@ -101,7 +101,7 @@ section{
     color: white;
     font-family: 'Bebas Neue', cursive;    
 }
-.inquiry-area a{
+.chatBtn{
     position: absolute;
     top: 95px;
     right: 370px;
